@@ -75,7 +75,7 @@ App::Du::Analyze::Filter - filter algorithm for L<App::Du::Analyze>
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 NOTE
 
@@ -241,8 +241,8 @@ The code is open to the world, and available for you to hack on. Please feel fre
 with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
 from your repository :)
 
-L<http://bitbucket.org/shlomif/perl-App-Du-Analyze>
+L<http://github.com/shlomif/perl-App-Du-Analyze>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/perl-App-Du-Analyze
+  git clone https://github.com/shlomif/perl-App-Du-Analyze.git
 
 =cut

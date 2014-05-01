@@ -5,7 +5,7 @@ use warnings;
 
 use autodie;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 use MooX qw/late/;
 
@@ -103,7 +103,14 @@ directories.
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
+
+=head1 DESCRIPTION
+
+This analyzes the output of C<\du .> looking for directories with a certain
+prefix, a certain depth and possibly sorting the output by size. It aims to
+aid in finding the most space-consuming components in the directory tree
+on the disk.
 
 =head1 NOTE
 
@@ -252,8 +259,8 @@ The code is open to the world, and available for you to hack on. Please feel fre
 with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
 from your repository :)
 
-L<http://bitbucket.org/shlomif/perl-App-Du-Analyze>
+L<http://github.com/shlomif/perl-App-Du-Analyze>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/perl-App-Du-Analyze
+  git clone https://github.com/shlomif/perl-App-Du-Analyze.git
 
 =cut
