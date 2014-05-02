@@ -18,7 +18,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "App-Du-Analyze",
-  "dist_version" => "0.0.2",
+  "dist_version" => "0.0.3",
   "license" => "mit",
   "module_name" => "App::Du::Analyze",
   "recommends" => {},
@@ -42,9 +42,9 @@ my %module_build_args = (
     "File::Temp" => 0,
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
-    "IPC::System::Simple" => 0,
     "Test::Differences" => 0,
     "Test::More" => 0,
+    "Test::Trap" => 0,
     "perl" => "5.006"
   }
 );
@@ -55,10 +55,10 @@ my %fallback_build_requires = (
   "File::Temp" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
-  "IPC::System::Simple" => 0,
   "Module::Build" => "0.3601",
   "Test::Differences" => 0,
   "Test::More" => 0,
+  "Test::Trap" => 0,
   "perl" => "5.006"
 );
 

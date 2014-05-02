@@ -20,7 +20,7 @@ analyze-du - analyze the output of C<\du .>
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 DESCRIPTION
 

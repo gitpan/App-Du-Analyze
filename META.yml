@@ -7,10 +7,10 @@ build_requires:
   File::Temp: '0'
   IO::Handle: '0'
   IPC::Open3: '0'
-  IPC::System::Simple: '0'
   Module::Build: '0.3601'
   Test::Differences: '0'
   Test::More: '0'
+  Test::Trap: '0'
   perl: '5.006'
 configure_requires:
   Module::Build: '0.3601'
@@ -33,4 +33,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-Du-Analyze
   repository: https://github.com/shlomif/perl-App-Du-Analyze.git
-version: 0.0.2
+version: 0.0.3

@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution App-Du-Analyze,
-version 0.0.2:
+version 0.0.3:
 
   analyze the output of du and find the most space-consuming directories.
 
