@@ -75,7 +75,7 @@ App::Du::Analyze::Filter - filter algorithm for L<App::Du::Analyze>
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 =head1 NOTE
 
